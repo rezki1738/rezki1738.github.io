@@ -1,0 +1,27 @@
+body{
+    height : 100vh;
+    width : 100vh;
+    background-color: black;
+    margin : 0rem;
+    overflow: hidden;
+}
+h1{
+    background-color: wheat;
+    color : greenyellow;
+
+}
+#track-images > .image{
+width: 40vmin;
+height : 54vmin;
+object-fit: cover;
+object-position: center;
+
+}
+#track-images {
+    display : flex;
+    gap: 4vmin;
+    position : absolute;
+    left : -50%;
+    top : 50%;
+ transform: translate(0%,   -50%);
+}
